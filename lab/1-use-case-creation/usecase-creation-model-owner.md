@@ -90,8 +90,6 @@
 1. In graphical form: <img src="./assets/image_037.png">
 1. Next, you will go through the same process with the Risk identification assessment.
 
-    As a side note: there is a logical link here to the Compliance Accelerators. Now that you know that your use case is not prohibited, not high-risk, but *does* have transparency requirements, you could select the appropriate compliance plan from the library to understand what specific obligations you now have for your use case. This functionality is covered in the “Hands On Lab - Govern AI use cases - Compliance management” Lab which you can find on <https://ibm.biz/SellWatsonxGovernance>.
-
 ## Risk identification
 
 This chapter is similar in structure to the previous one. The instructions are a little more compact since you are doing this for the second time now. Refer back to the previous chapter if you need a memory jog.
