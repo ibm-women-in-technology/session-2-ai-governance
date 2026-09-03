@@ -26,7 +26,7 @@
     + Due date = 5 days from now
     + Owner = you <img src="./assets/image_018.png">
     + Where does that come from? Those are all defined in the workflow. It’s outside of the scope of this session to dive deep into that.
-    + If the *Third Party Link* field is not yet set, **refresh** the screen to allow the Factsheet link to be populated automatically. You don’t need this link in this lab, but if you move ahead too quickly, you might get an error message in the next chapter of this lab. <img src="./assets/image_018.png">
+    + If the *Third Party Link* field is not yet set, **refresh** the screen to allow the Factsheet link to be populated automatically. You don’t need this link in this lab, but if you move ahead too quickly, you might get an error message in the next chapter of this lab. <img src="./assets/image_018a.png">
 
 ## Further use case data gathering
 
@@ -34,8 +34,8 @@
 1. Add your use case to your favorites so you can find it quickly. Click on the **star** next to the use case name. <img src="./assets/image_019.png">
 1. In the *right-hand panel*, you can see some new recommended fields. Let’s fill those in (you can click on the name of the field in the guidance panel to jump to that field on the UI):
     + *Stakeholder departments* = Information Security, AI Committee
-    + Technical owner = your username
-    + Risk level – leave this field blank for now, we’ll come back to it later <img src="./assets/image_019.png">
+    + *Technical owner* = your username
+    + *Risk level* – leave this field blank for now, we’ll come back to it later <img src="./assets/image_019a.png">
 1. **Save** your use case. <img src="./assets/image_020.png">
     + If you get an error “The object has been recently updated by another user”, refresh the screen and enter the information again
     <img alt="A close-up of a message  AI-generated content may be incorrect." src="./assets/image_021.png">
