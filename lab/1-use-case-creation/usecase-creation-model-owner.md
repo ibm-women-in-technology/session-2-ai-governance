@@ -1,4 +1,6 @@
-# Create a use case
+# Create a new use case
+
+## Create a new use case
 
 1. In *Governance Console*, open the **main menu**, then select **Inventory 🡪 Use Cases**. <img src="./assets/image_012.png">
 1. Click **“Create New”**
@@ -25,6 +27,9 @@
     + Owner = you <img src="./assets/image_018.png">
     + Where does that come from? Those are all defined in the workflow. It’s outside of the scope of this session to dive deep into that.
     + If the *Third Party Link* field is not yet set, **refresh** the screen to allow the Factsheet link to be populated automatically. You don’t need this link in this lab, but if you move ahead too quickly, you might get an error message in the next chapter of this lab. <img src="./assets/image_018.png">
+
+## Further use case data gathering
+
 1. Go back to the **tab with your use case**.
 1. Add your use case to your favorites so you can find it quickly. Click on the **star** next to the use case name. <img src="./assets/image_019.png">
 1. In the *right-hand panel*, you can see some new recommended fields. Let’s fill those in (you can click on the name of the field in the guidance panel to jump to that field on the UI):
@@ -45,6 +50,9 @@
     + A new *Risk* section has been added to the use case view, with an assessment questionnaire.
     + A new *Regulatory Information* section has been added to the use case view, with an assessment questionnaire.
 1. Before we continue with our use case, let’s first have a quick look at the automated audit trail.
+
+## Audit logging
+
 1. Click on the **Activity** tab. <img src="./assets/image_024.png">
 1. Here, the software automatically captures an audit trail for your use case.
 1. At the top you will see your most recent changes such as the changes to the *Status*, *Data Gathering Completion Date* and *Workflow Stage* fields. <img src="./assets/image_025.png">
@@ -195,18 +203,6 @@ Depending on how your answered the risk identification questions, you might have
     + The *due date* is 5 days from now
     + Two reviews have been added in the *Use Case Approval* section. <img src="./assets/image_071.png">
 1. Let’s have a look at these reviews next.
-
-## Well Done!
-
-You have successfully created a **Model Use Case** and filled out assessments in watsonx.governance.
-
-This enables:
-
-* Structured governance
-* Risk and compliance tracking
-* Streamlined collaboration across stakeholders
-
-Use Cases provide visibility, traceability, and control across the lifecycle of AI models.
 
 ---
 
