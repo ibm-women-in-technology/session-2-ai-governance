@@ -210,7 +210,7 @@ Use Cases provide visibility, traceability, and control across the lifecycle of 
 
 ---
 
-➡️ **Next Step:** [Review and Assess Risks](./risk-review-rco.md)
+➡️ **Next Step:** [Use Case Reviews](./use-case-reviews.md)
 
 ---
 
