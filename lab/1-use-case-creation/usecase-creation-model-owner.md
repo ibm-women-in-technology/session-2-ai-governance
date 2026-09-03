@@ -2,7 +2,7 @@
 
 ## Create a new use case
 
-1. In *Governance Console*, open the **main menu**, then select **Inventory 🡪 Use Cases**. <img src="./assets/image_012.png">
+1. In *Governance Console*, open the **main menu**, then select **Inventory &rarr; Use Cases**. <img src="./assets/image_012.png">
 1. Click **“Create New”**
 
     On the *Use Cases* grid view, click on the **New** button. <img src="./assets/image_013.png">
@@ -80,8 +80,8 @@
     + **Read the questions and fill in the answers**. Use the information from the Business context paragraph of this document if you need clues about the appropriate answers. Ask your course leader to clarify anything that is unclear.
 1. After completing all the questions, you will get a final notice that your use case may be subject to *transparency requirements* in the AI Act, and you are asked to contact the compliance department. Click the “I confirm” button. <img src="./assets/image_033.png">
 1. If your outcome is different, you probably have answered some questions differently. That’s OK for this exercise, no need to go back and change anything.
-1. In total, you have answered 23 questions. <img src="./assets/image_033.png">
-1. The questionnaire with your answers is periodically auto saved. If the *Save draft* button is not greyed out, **click on that button** to make sure your final answers have been saved. <img src="./assets/image_033.png">
+1. In total, you have answered 23 questions. <img src="./assets/image_033a.png">
+1. The questionnaire with your answers is periodically auto saved. If the *Save draft* button is not greyed out, **click on that button** to make sure your final answers have been saved. <img src="./assets/image_033b.png">
 1. You have now completed and saved the applicability assessment. Click on the **Action** button, then select **Submit and Close**. (as expected from the Action properties you just saw). <img src="./assets/image_034.png">
 1. On the confirmation screen, click **Submit and close tab**. <img src="./assets/image_035.png">
 1. Go back to the **tab with your use case**.
@@ -101,7 +101,7 @@ This chapter is similar in structure to the previous one. The instructions are a
     + You can be asked to provide a comment on a question
     + You can be prompted to answer additional questions
 1. In the questionnaire I created when writing this content, I have answered 31 questions (you might have a different number based on the answers you’ve given). <img src="./assets/image_038.png">
-1. The questionnaire with your answers is periodically auto saved. If the *Save draft* button is not greyed out, **click on that button** to make sure your final answers have been saved. <img src="./assets/image_038.png">
+1. The questionnaire with your answers is periodically auto saved. If the *Save draft* button is not greyed out, **click on that button** to make sure your final answers have been saved. <img src="./assets/image_038a.png">
 1. You have now completed and saved the risk identification. Click on the **Action** button, then select **Submit and Close**. <img src="./assets/image_039.png">
 1. On the confirmation screen, click **Submit and close tab**. <img src="./assets/image_040.png">
 1. Now that we have described our use case in detail, the next step is to *assess* the risks that have been identified from your answers.
@@ -128,7 +128,7 @@ This chapter is similar in structure to the previous one. The instructions are a
 1. You have now initiated the assessment workflow, you are the owner of this Risk object, and the Risk is placed in the *Confirm Assignment* workflow state. <img src="./assets/image_050.png">
 1. We will work through this activity in its entirety first, and then have a look at the workflow that drives this.
 1. Read the instruction in the right-hand panel.
-    + You are asked to confirm that you are the owner, or re-assign the Risk to someone else. You will continue as the owner yourself. <img src="./assets/image_050.png">
+    + You are asked to confirm that you are the owner, or re-assign the Risk to someone else. You will continue as the owner yourself. <img src="./assets/image_050a.png">
 1. Open the **Action** button, but do not select any of the options yet. <img src="./assets/image_051.png">
 1. Notice that you have two options:
     + “Ready for assessment” – this confirms that you are the owner and you want to start the assessment process
@@ -171,13 +171,13 @@ Depending on how your answered the risk identification questions, you might have
 
 1. Doing 2 or 3 risks purposefully: seriously consider the likelihood and impact fields and come up with a realistic mitigation strategy.
     + Open the Risk object
-    + Action button 🡪 Start Model Risk Assessment 🡪 Continue
-    + Action button 🡪 Ready for Assessment 🡪 Continue
+    + Action button &rarr; Start Model Risk Assessment &rarr; Continue
+    + Action button &rarr; Ready for Assessment &rarr; Continue
     + Set *Inherent Impact* and *Inherent Likelihood* fields
     + Enter a text for *mitigation strategy*.
     + Set *Residual Impact* and *Residual Likelihood* fields
     + Save
-    + Action button 🡪 Assessment Complete
+    + Action button &rarr; Assessment Complete
     + Enter a comment, Continue and close tab
 1. After doing this a few times:
     + Go to the tab that shows the **Risks for your use case**.
