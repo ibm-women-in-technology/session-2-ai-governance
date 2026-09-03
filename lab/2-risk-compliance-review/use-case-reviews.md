@@ -2,7 +2,7 @@
 
 ## Complete the stakeholder reviews
 
-1. First of all, note that there are two Review objects, one for each Stakeholder Departments that you set in the early steps of this Lab. Both are in an “Awaiting Approval” status. <img src="./assets/image_071.png">
+1. First of all, note that there are two Review objects, one for each Stakeholder Departments that you set in the early steps of this Lab. Both are in an “Awaiting Approval” status. <img src="./assets/image_071a.png">
 1. Each Stakeholder Review that is created is a child object of the use case. The *Stakeholder Review* object is subject to a workflow of its own, separate from the Use Case Request workflow. <img src="./assets/image_072.png">
 1. From the *Use Case Approvals* section, open the **Review for the Information Security** department. <img src="./assets/image_073.png">
 1. Expand the *workflow information* panel to see that
