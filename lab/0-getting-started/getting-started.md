@@ -1,12 +1,10 @@
-# Getting Started — Logging in to IBM watsonx.governance
-
 ## Prerequisites
 
 Before you can begin any of the lab activities, you should have received an invite in your mailbox (same email address as your IBM ID) to join an IBM Cloud account. If you haven't already done that, accept the invitation to join the account used for the hands-on lab.
 
 Contact one of the lab administrators in case you did not receive an invite yet.
 
-## Step 1 — Open the IBM watsonx.governance console
+## Open the IBM watsonx.governance console
 
 Use the link below to access the IBM watsonx.governance lab environment. 
 
