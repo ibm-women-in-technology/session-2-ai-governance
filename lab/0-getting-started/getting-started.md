@@ -1,52 +1,24 @@
-# Getting Started — Logging in to IBM OpenPages
+# Getting Started — Logging in to IBM watsonx.governance
 
-Before you can begin any of the lab activities, you need to access **IBM OpenPages** through the IBM Cloud console. Follow the steps below carefully.
+## Prerequisites
 
----
+Before you can begin any of the lab activities, you should have received an invite in your mailbox (same email address as your IBM ID) to join an IBM Cloud account. If you haven't already done that, accept the invitation to join the account used for the hands-on lab.
 
-## Step 1 — Open the Login Page
+Contact one of the lab administrators in case you did not receive an invite yet.
 
-Your instructor will share three things with you: a **link**, a **username**, and a **password**. The link will look similar to:
+## Step 1 — Open the IBM watsonx.governance console
 
-```
-https://cloud.ibm.com/authorize/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/xxxxxxxxxx
-```
+Use the link below to access the IBM watsonx.governance lab environment. 
 
-Click the link — it will take you to the **IBM Technology Zone login page**
+https://59ee3935-dd20-43b1-abcb-7e136a0e4eb0.eu-de.openpages.cloud.ibm.com/app/jspview/react/grc/dashboard/Home
 
-<img width="800" alt="IBM Technology Zone login screen with Username and Password fields and a Sign In button." src="./assets/login-screen.png">
+Use your IBM ID to login. Once watsonx.governance has loaded, you should see a dashboard similar to
 
-Enter the **username** and **password** provided by your instructor, then click **Sign In**.
+<img src="./assets/image_011.png">
 
----
+Make sure you are using the **watsonx-governance MRG Master** profile — this profile has the permissions needed to complete all lab activities across every persona. You can check this as follows
 
-## Step 2 — Navigate to the Resource List
-
-After signing in you will land on the **IBM Cloud** dashboard. Click the **hamburger menu** (☰) icon in the top-left corner, then click **Resource list**.
-
-<img width="800" alt="IBM Cloud Resource list page with Analytics expanded showing gov-691000yo0e as watsonx.governance Active." src="./assets/resource-list-button.png">
-
-On the Resource list page, find the **Analytics** section. Click the arrow next to it to expand it if it is collapsed.
-
----
-
-## Step 3 — Open the OpenPages Instance and Launch
-
-Inside the **Analytics** section, look for the entry that starts with **`gov-`** (for example `gov-691000yo0e`). Click on it.
-
-<img width="800" alt="IBM Cloud Resource list with Analytics expanded. The gov-691000yo0e entry is highlighted with a red box — click this entry." src="./assets/click-gov-analytics.png">
-
-This opens the IBM OpenPages service management page. In the top-right corner, click the **Launch watsonx.governance** button. IBM OpenPages will open in a new tab.
-
----
-
-## You're In!
-
-Once OpenPages loads, make sure you are using the **watsonx-governance MRG Master** profile — this profile has the permissions needed to complete all lab activities across every persona.
-
-> **Tip:** Keep this tab open throughout the entire session. All lab steps are performed inside IBM OpenPages (the tab that opened after clicking **Launch watsonx.governance**).
-
----
+<img src="./assets/image_009.png">
 
 ---
 
