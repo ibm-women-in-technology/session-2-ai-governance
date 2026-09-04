@@ -1,5 +1,3 @@
-# Create a new use case
-
 ## Create a new use case
 
 1. In *Governance Console*, open the **main menu**, then select **Inventory &rarr; Use Cases**. <img src="./assets/image_012.png">

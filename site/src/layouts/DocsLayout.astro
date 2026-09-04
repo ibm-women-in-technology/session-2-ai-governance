@@ -29,65 +29,41 @@ const steps = [
   },
   {
     number: "01",
-    label: "Use Case Creation",
+    label: "Use Case Request",
     instructor: false,
     items: [
       { label: "Use Case Creation", href: `${base}/steps/1-use-case-creation/usecase-creation-model-owner` },
+      { label: "Use Case Reviews", href: `${base}/steps/1-use-case-creation/use-case-reviews`},
+      { label: "Summary", href: `${base}/steps/1-use-case-creation/summary` },
+      { label: "Cleaning up the environment", href: `${base}/steps/1-use-case-creation/cleaning-up-the-environment` },
+    ],
+    appendix: [
+      { label: "Assessment questionnaire answers", href: `${base}/steps/1-use-case-creation/appendix` },
     ],
   },
   {
     number: "02",
-    label: "Use Case Reviews",
-    instructor: false,
+    label: "AI Lifecycle",
+    instructor: true,
     items: [
-      { label: "Use Case Reviews", href: `${base}/steps/2-risk-compliance-review/use-case-reviews` },
+      { label: "AI Lifecycle Walkthrough", href: `${base}/steps/2-ai-lifecycle/ai-lifecycle-walkthrough` },
+    ],
+    appendix: [
+      { label: "2a · Developer Tasks", href: `${base}/steps/2-ai-lifecycle/appendix/developer/model-developer-tasks` },
+      { label: "2a · Model Development", href: `${base}/steps/2-ai-lifecycle/appendix/developer/model-developement` },
+      { label: "2b · Validator Tasks", href: `${base}/steps/2-ai-lifecycle/appendix/validator/model-validator-tasks` },
+      { label: "2b · Model Validation", href: `${base}/steps/2-ai-lifecycle/appendix/validator/model-validation` },
+      { label: "2c · Deployer Tasks", href: `${base}/steps/2-ai-lifecycle/appendix/deployer/model-deployer-tasks` },
+      { label: "2c · Model Deployment", href: `${base}/steps/2-ai-lifecycle/appendix/deployer/model-deployment` },
     ],
   },
   {
     number: "03",
-    label: "AI Lifecycle",
-    instructor: true,
-    items: [
-      { label: "AI Lifecycle Walkthrough", href: `${base}/steps/3-ai-lifecycle/ai-lifecycle-walkthrough` },
-    ],
-    appendix: [
-      { label: "3a · Developer Tasks", href: `${base}/steps/3-ai-lifecycle/appendix/developer/model-developer-tasks` },
-      { label: "3a · Model Development", href: `${base}/steps/3-ai-lifecycle/appendix/developer/model-developement` },
-      { label: "3b · Validator Tasks", href: `${base}/steps/3-ai-lifecycle/appendix/validator/model-validator-tasks` },
-      { label: "3b · Model Validation", href: `${base}/steps/3-ai-lifecycle/appendix/validator/model-validation` },
-      { label: "3c · Deployer Tasks", href: `${base}/steps/3-ai-lifecycle/appendix/deployer/model-deployer-tasks` },
-      { label: "3c · Model Deployment", href: `${base}/steps/3-ai-lifecycle/appendix/deployer/model-deployment` },
-    ],
-  },
-  {
-    number: "04",
     label: "Incident Management",
     instructor: false,
     beyondToday: true,
     items: [
-      { label: "Incident Management", href: `${base}/steps/4-incident-management/mitigating-incidents` },
-    ],
-  },
-  {
-    number: "05",
-    label: "Cleaning Up The Environment",
-    instructor: false,
-    items: [
-      { label: "Cleaning up the environment", href: `${base}/steps/5-cleaning-up-the-environment/cleaning-up-the-environment` },
-    ],
-  },
-  {
-    label: "Summary",
-    instructor: false,
-    items: [
-      { label: "Summary", href: `${base}/steps/summary/summary` },
-    ],
-  },
-  {
-    label: "Appendix",
-    instructor: false,
-    items: [
-      { label: "Appendix", href: `${base}/steps/appendix/appendix` },
+      { label: "Incident Management", href: `${base}/steps/3-incident-management/mitigating-incidents` },
     ],
   },
 ];
@@ -122,7 +98,7 @@ const activeStepIndex = steps.findIndex(g => g.items.some(i => i.href === curren
               <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </button>
-          <a href="https://ibm-women-and-tech.github.io" class="text-violet-600 hover:underline font-medium">IBM Women and Tech</a>
+          <a href="https://ibm-women-in-technology.github.io" class="text-violet-600 hover:underline font-medium">IBM Women and Tech</a>
           <span class="text-gray-300">/</span>
           <a href={base} class="text-gray-500 hover:text-violet-600 transition-colors">Session 2</a>
         </div>
