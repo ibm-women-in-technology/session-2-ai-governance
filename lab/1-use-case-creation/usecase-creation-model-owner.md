@@ -1,3 +1,11 @@
+## Business context
+
+For the purpose of this lab, imagine you are working for a global for-profit organization, headquartered in the US and also operating in various EU member states.
+
+The AI system you will be governing is a self-developed internal version of a ChatGPT-like general-purpose AI assistant, using a private OpenAI model on Azure.
+
+You are the business owner of that AI system. In that role, it is your responsibility to register this use case in watsonx.governance and guide it through the onboarding process. Amongst others, it will help establish which compliance and risk management measures need to be taken during the development and deployment of the intended solution.
+
 ## Create a new use case
 
 1. In *Governance Console*, open the **main menu**, then select **Inventory &rarr; Use Cases**. <img src="./assets/image_012.png">
@@ -94,7 +102,7 @@ This chapter is similar in structure to the previous one. The instructions are a
 
 1. Go back to the **tab with your use case**.
 1. In the *Risk* section of your use case, click on the questionnaire assessment called **AI Risk Identification (AskMeAnything ABC)** to open it.
-1. Fill in the risk identification questionnaire. Use the information from the Business context and [Create a new use case](#_Create_a_new) paragraphs of this document if you need clues about the appropriate answers. Ask your course leader to clarify anything that is unclear.
+1. Fill in the risk identification questionnaire. Use the information from the Business context and Create a new use case paragraphs of this document if you need clues about the appropriate answers. Ask your course leader to clarify anything that is unclear.
 1. As you work through the questionnaire, notice that
     + You can be asked to provide a comment on a question
     + You can be prompted to answer additional questions
