@@ -40,7 +40,7 @@ the Model Validator that their work could begin.
 
 ### What You Can Explore
 
-Open your assigned Use Case in OpenPages and navigate to the **Models** section to see this in the live system:
+Open your assigned Use Case in IBM watsonx.governance and navigate to the **Models** section to see this in the live system:
 1. The Use Case status field — it reads **Under Development** (or later) at this point in the lifecycle
 2. The **Models** section — two entries that appeared automatically: the IBM Granite foundation model and the Agentic RAG LangChain implementation
 3. Click into one of the model entries — the **AI Factsheet** fields are automatically populated from the development tooling (model name, version, evaluation results)
@@ -88,7 +88,7 @@ confirmed everything was in order, and initiated the Deployment Approval process
 
 ### What You Can Explore
 
-On your assigned Use Case in OpenPages:
+On your assigned Use Case in IBM watsonx.governance:
 1. Scroll to the **Models** section — both model entries now show **"Approved for production use"** status
 2. Check the **task history** of the Use Case — you will see the completed questionnaire tasks logged there
 3. The Use Case status reads **"Approved for Deployment"** or similar
@@ -129,7 +129,7 @@ changed to **"In Operation"** — meaning the AI system is live and being used b
 
 ### What You Can Explore
 
-On your assigned Use Case in OpenPages:
+On your assigned Use Case in IBM watsonx.governance:
 1. The Use Case status is now **In Operation**
 2. A deployment record was created when the AIOps Engineer confirmed deployment — it is visible in the Use Case record
 3. The full status trail is visible in the Use Case history — from "Approved for Development" all the way to "In Operation", with every transition logged
@@ -171,15 +171,15 @@ is fully self-contained if you'd like to try it on your own:
 > They are provided here as a reference for self-study.
 
 ### Role: Model Developer
-- [Developer Tasks — OpenPages governance console](./appendix/developer/model-developer-tasks.md)
+- [Developer Tasks — IBM watsonx.governance console](./appendix/developer/model-developer-tasks.md)
 - [Model Development — watsonx.ai notebook guide](./appendix/developer/model-developement.md)
 
 ### Role: Model Validator
-- [Validator Tasks — OpenPages governance console](./appendix/validator/model-validator-tasks.md)
+- [Validator Tasks — IBM watsonx.governance console](./appendix/validator/model-validator-tasks.md)
 - [Model Validation — OpenScale evaluation guide](./appendix/validator/model-validation.md)
 
 ### Role: AIOps Engineer
-- [Deployer Tasks — OpenPages governance console](./appendix/deployer/model-deployer-tasks.md)
+- [Deployer Tasks — IBM watsonx.governance console](./appendix/deployer/model-deployer-tasks.md)
 - [Model Deployment — watsonx.ai deployment guide](./appendix/deployer/model-deployment.md)
 
 ---

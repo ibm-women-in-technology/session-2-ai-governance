@@ -8,7 +8,7 @@
 
 ---
 
-> **Login Note:** Before starting, ensure you are logged into IBM OpenPages with the
+> **Login Note:** Before starting, ensure you are logged into IBM watsonx.governance with the
 > **watsonx-governance MRG Master** profile.
 
 ---
@@ -57,7 +57,7 @@ Your Issue has been pre-created on this Use Case and is waiting in your **My Tas
 
 ## What is Incident Management?
 
-Incident Management in IBM OpenPages allows **Risk & Compliance Officers** to track, assess,
+Incident Management in IBM watsonx.governance allows **Risk & Compliance Officers** to track, assess,
 mitigate, and communicate risks when something goes wrong with a live AI system. It provides
 a structured workflow for logging issues, assigning responsibilities, and ensuring timely
 resolution — creating a full audit trail at every step.
@@ -81,9 +81,9 @@ incident — leaving a complete record of what happened and what was done about 
 
 ## Step 1 — Navigate to Your Assigned Issue
 
-- Click on the **My Tasks** tab in IBM OpenPages.
+- Click on the **My Tasks** tab in IBM watsonx.governance.
 
-<img width="800" alt="Click on the My Tasks tab when logged in to IBM OpenPages as Use Case Owner." src="./assets/Issue3.png">
+<img width="800" alt="Click on the My Tasks tab when logged in to IBM watsonx.governance as Use Case Owner." src="./assets/Issue3.png">
 
 - Locate and select the Issue assigned to your Use Case.
 
@@ -156,16 +156,14 @@ its risks, through development, validation, and deployment, to detecting and res
 production incident. This is exactly how AI risk and compliance works in a real organisation
 using watsonx.governance.
 
-> Always document each remediation step for audit purposes. Every action in OpenPages is
-> logged, timestamped, and traceable — this is what makes AI governance auditable.
+> Always document each remediation step for audit purposes. Every action in IBM watsonx.governance is logged, timestamped, and traceable — this is what makes AI governance auditable.
 
 ---
 
 ## Appendix — Other Ways to Generate Metrics
 
 > The options below are alternative methods for generating a failing metric value in
-> OpenPages. They require **OpenScale** access, which is not available in this lab session.
-> Provided here as a reference for after the session.
+> IBM watsonx.governance. They require **OpenScale** access, which is not available in this lab session. Provided here as a reference for after the session.
 
 - [Running evaluations via Model Management (OpenScale)](./appendix/model-management-evals.md)
 - [Pushing metrics from an external evaluation application](./appendix/integrating-external-evals.md)
